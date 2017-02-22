@@ -20,3 +20,8 @@ bool Course::EnrollStudent(Student newStudent, int position)
 		return true;
 	}
 }
+
+/* for(auto student : _student)
+{
+info += studnet.GetName() + "\n"; 
+} //a loop that runs through each variable in the array */

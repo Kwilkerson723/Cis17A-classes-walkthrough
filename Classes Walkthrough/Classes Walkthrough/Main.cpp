@@ -6,8 +6,6 @@ using namespace std;
 int main()
 {
 
-	Teacher jame = Teacher("james");
-	Course cis17A = 
 
 	
 	//test code
