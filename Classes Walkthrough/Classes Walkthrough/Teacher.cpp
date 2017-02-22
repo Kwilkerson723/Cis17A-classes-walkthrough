@@ -11,5 +11,7 @@ Teacher::~Teacher()
 {
 }
 
-std::string Teacher::GetName();
-{}
+string Teacher::GetName(string name)
+{
+	_name = name;
+}

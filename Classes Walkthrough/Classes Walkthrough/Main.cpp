@@ -6,8 +6,13 @@ using namespace std;
 int main()
 {
 
-	Teacher james = Teacher("james"); //instantiating 
-	cout << james.GetName() << endl; 
+	Teacher jame = Teacher("james");
+	Course cis17A = 
+
+	
+	//test code
+	//Teacher james = Teacher("james"); //instantiating 
+	//cout << james.GetName() << endl; 
 
 	//Student bob = Student("bob");
 	//cout << bob.GetName() << endl; 
