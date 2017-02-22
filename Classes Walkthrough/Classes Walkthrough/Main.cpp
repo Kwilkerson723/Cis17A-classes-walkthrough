@@ -1,13 +1,16 @@
 #include "Student.h"
+#include "Teacher.h"
 #include <iostream>
 using namespace std; 
 
 int main()
 {
-	Student bob = Student("bob");
 
-	cout << bob.GetName() << endl; 
+	Teacher james = Teacher("james"); //instantiating 
+	cout << james.GetName() << endl; 
 
-	getchar();
+	//Student bob = Student("bob");
+	//cout << bob.GetName() << endl; 
+	//getchar();
 	return 0; 
 }
